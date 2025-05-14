@@ -1,0 +1,365 @@
+body {
+      font-family: 'Inter', sans-serif;
+      background-color: rgb(252, 252, 252);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .kepala1 {
+        height: 64px;
+    }
+
+    .kepala {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #164e63;
+        color: white;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 999;
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+
+    .sya {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        max-width: 48rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .saya2 {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .gambar {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 0.375rem;
+    }
+
+    .judul {
+        font-size: 1.5rem;
+        font-weight: 1000;
+        user-select: none;
+    }
+
+    .saya3 {
+        width: 100%;
+        max-width: 20rem;
+        margin-left: 1rem;
+        display: none;
+    }
+
+    .input {
+        width: 100%;
+        border-radius: 0.375rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        color: #164e63;
+        border: 1px solid #67e8f9;
+        outline: none;
+        transition: box-shadow 0.2s ease;
+      
+    }
+
+    .button {
+        color: white;
+        font-size: 1.25rem;
+        outline: none;
+        padding: 0.5rem;
+        border-radius: 0.375rem;
+        transition: 0.2s ease;
+        display: block;
+    }
+
+    .button:focus {
+        box-shadow: 0 0 0 2px white;
+    }
+    
+    .tabel {
+        background-color: rgb(0, 245, 224);
+        margin-top: 4rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 0.375rem;
+    }
+
+    .tabeltext {
+        color: #164e63;
+        font-size: 1.25rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .saya4 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 30rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .input2 {
+        width: 100%;
+        border-radius: 0.375rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        color: #164e63;
+        border: 1px solid #67e8f9;
+        outline: none;
+        transition: 0.2s ease;
+    }
+
+    .input2:focus {
+        box-shadow: 0 0 0 2px #06b6d4;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 50%;                         
+        transform: translateX(-50%);       
+        background-color: #164e63;         
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 4rem;                      
+        z-index: 40;
+        width: 100vw;                       
+        max-width: 760px; 
+        border-radius: 0.375rem;
+    
+    }
+
+    .ikon {
+        color: white;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .ikon:focus {
+        outline: none;
+    }
+
+    .ikon2 {
+        font-size: 0.75rem;
+        margin-top: 0.125rem;
+    }
+    .content {
+        flex-grow: 1;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        max-width: 48rem;
+        
+    }
+
+    .data1 {
+        margin-right: 1.5rem;
+        margin-top: 7rem;
+        
+    }
+    
+    .data7 {
+        color: #164e63;
+        font-size: 1.25rem;
+        font-weight: 700;
+        text-align: center;
+        
+    }
+
+    .data2 {
+        width: 100%;
+        overflow-x: auto;
+        background-color: #ffffff;
+        border: 1px solid #67e8f9;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        margin-left: 0.8rem;
+        margin-right: 0.5rem;
+    } 
+
+    .data3 {
+        min-width: 100%;
+        background-color: #ffffff;
+        border: 1px solid #67e8f9;
+        margin-bottom: 50px;
+        
+    }
+
+    .data4 {
+        background-color: #0e7490;
+        color: white;
+    }
+
+    .kelompok9 {
+        background-color: #0e7490;
+        color: white;
+    }
+    .data5 {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+    }
+    .simpan:hover {
+        background-color: #155e75;
+    }
+
+    .kelompok {
+        margin-right: 1.5rem;
+    }
+    .kelompok1 {
+        margin-top: 1rem;
+        padding: 1rem;
+        background-color: #f0f9ff;
+        font-family: 'Inter', sans-serif;
+        margin-right: 0.9rem;
+    }
+
+    .kelompok2 {
+        color: #164e63;
+        font-size: 1.25rem;
+        font-weight: 700;
+        text-align: center;
+       
+    
+    }
+
+    .kelompok3 {
+        width: 100%;
+        overflow-x: auto;
+        background-color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        margin-left: 0.8rem;
+        margin-right: 0.5rem;
+    }
+
+    .kelompok4 {
+        width: 100%;
+        border-collapse: collapse;
+        
+    }
+
+    
+
+    .kelompok5 {
+        padding: 0.75rem 1rem;
+        text-align: center;
+        border-bottom: 1px solid #ffffff;
+        font-size: 0.8rem;
+    
+    }
+
+
+    #kelompokTable tbody tr:nth-child(even) {
+        background-color: #f1f5f9;
+    }
+
+    #kelompokTable td {
+        padding: 0.75rem 1rem;
+        text-align: center;
+        color: #1e293b;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    #kelompokTable button {
+        background: transparent;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    #kelompokTable button:hover {
+        color: #ffffff;
+    }
+
+    .simpan:hover {
+        background-color: #ffffff;
+    }
+
+    
+
+    @media (min-width: 760px) {
+        .saya3 {
+            display: block;
+        }
+
+        .button {
+            display: none;
+        }
+
+        .saya4 {
+            display: none;
+        
+        }
+
+        .footer {
+            width: 100vw; 
+            max-width: 760px; 
+            padding: center;
+            border-radius: 0.375rem;
+              
+        }
+
+        .tabel {
+            margin-top: 1rem;
+            margin-left: 19rem;
+            margin-right: 19rem;
+        }
+
+        .kepala {
+            width: 100%;
+            max-width: 760px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .data1 {
+            margin-top: 5rem;
+        }
+
+        .data2 {
+            font-size: 1.25rem;
+        }
+
+        .kelompok2 {
+            font-size: 1.25rem;
+        }
+
+        .kelompok5 {
+            font-size: 1.25rem;
+        }
+        
+    }

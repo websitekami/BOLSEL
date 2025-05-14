@@ -1,0 +1,489 @@
+body {
+      font-family: 'Inter', sans-serif;
+      background-color: rgb(252, 252, 252);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .selamat-datang {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .judul-utama {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #1e3a8a; 
+        margin-bottom: 1rem;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .deskripsi-aplikasi {
+        font-size: 1.125rem;
+        color: #1e40af; 
+        max-width: 768px;
+        margin: 0 auto;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .gambar-sambutan {
+        margin-top: 1.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+    }
+
+
+    .kepala1 {
+        height: 64px;
+    }
+
+    .kepala {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #164e63;
+        color: white;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 999;
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+
+    .sya {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        max-width: 48rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .saya2 {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .gambar {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 0.375rem;
+    }
+
+    .judul {
+        font-size: 1.5rem;
+        font-weight: 1000;
+        user-select: none;
+    }
+
+    .saya3 {
+        width: 100%;
+        max-width: 20rem;
+        margin-left: 1rem;
+        display: none;
+    }
+
+    .input {
+        width: 100%;
+        border-radius: 0.375rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        color: #164e63;
+        border: 1px solid #67e8f9;
+        outline: none;
+        transition: box-shadow 0.2s ease;
+      
+    }
+
+    .button {
+        color: white;
+        font-size: 1.25rem;
+        outline: none;
+        padding: 0.5rem;
+        border-radius: 0.375rem;
+        transition: 0.2s ease;
+        display: block;
+    }
+
+    .button:focus {
+        box-shadow: 0 0 0 2px white;
+    }
+
+    .saya4 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 30rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .input2 {
+        width: 100%;
+        border-radius: 0.375rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        color: #164e63;
+        border: 1px solid #67e8f9;
+        outline: none;
+        transition: 0.2s ease;
+    }
+
+    .input2:focus {
+        box-shadow: 0 0 0 2px #06b6d4;
+    }
+
+    .content {
+        flex-grow: 1;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 7rem;
+        padding-bottom: 1.5rem;
+        max-width: 48rem;
+    }
+
+    .subcontent {
+        background-color: white;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+        padding: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .sub4 {
+        display: none;
+        color: #164e63;
+        font-weight: 500;
+        margin-bottom: 0.25rem;
+    }
+
+    .sub3 {
+        margin-bottom: 5px;
+    }
+
+    .sub5 {
+        width: 100%;
+        border: 1px solid #67e8f9;
+        border-radius: 0.375rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        background-color: white;
+        color: black;
+        outline: none;
+        transition: 0.2s ease;
+    }
+
+    .berat {
+        margin-bottom: 3px;
+    }
+
+    .berat2 {
+        display: block;
+        color: #164e63;
+        font-weight: 700;
+        margin-bottom: 0.25rem;
+    }
+
+    .berat3 {
+        width: 100%;
+        border: 1px solid #67e8f9;
+        border-radius: 0.375rem;
+        padding: 0.5rem 0.75rem;
+        outline: none;
+        transition: 0.2s ease;
+    }
+
+    .berat3:focus {
+        box-shadow: 0 0 0 2px #06b6d4;
+    }
+
+    .berta4 {
+        margin-bottom: 5px;
+    }
+
+    .berat5 {
+        display: block;
+        color: #164e63;
+        font-weight: 800;
+        margin-bottom: 0.25rem;
+    }
+
+    .berat6 {
+        width: 100%;
+        border: 1px solid #67e8f9;
+        border-radius: 0.375rem;
+        padding: 0.5rem 0.75rem;
+        background-color: white;
+        color: #164e63;
+        outline: none;
+        transition: 0.2s ease;
+        margin-bottom: 2rem;
+    }
+
+    .berat6:focus {
+        box-shadow: 0 0 0 2px #06b6d4;
+    }
+
+    .simpan {
+        width: 100%;
+        background-color: #0e7490;
+        color: white;
+        font-weight: 900;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        border-radius: 0.375rem;
+        transition: 0.3s;
+    }
+
+    
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 50%;                         
+        transform: translateX(-50%);       
+        background-color: #164e63;         
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 4rem;                      
+        z-index: 40;
+        width: 100vw;                       
+        max-width: 760px; 
+        border-radius: 0.375rem;
+    
+    }
+
+    .ikon {
+        color: white;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .ikon:focus {
+        outline: none;
+    }
+
+    .ikon2 {
+        font-size: 0.75rem;
+        margin-top: 0.125rem;
+    }
+
+    .berita {
+        margin-top: 2rem;
+        text-decoration: double;
+        
+    }
+
+    .berita1 {
+         background-color: #155e75;
+         padding-right: 1rem;
+         padding-left: 1rem;
+         padding-top: 0.6rem;
+         padding-bottom: 0.6rem;
+         border-radius: 0.375rem;
+         text-align: center;
+         color: white;
+         font-weight: 600;
+    }
+
+    .judul-baris {
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        display: flex;
+    }
+
+
+    .berita2 {
+        margin-top: 1rem;
+    }
+
+    .px2 {
+        display: grid;
+    }
+
+    .jangan {
+        padding-bottom: 6rem;
+    }
+
+    .jangan1 {
+        background-color: #155e75;
+        border-radius: 0.375rem;
+        text-align: justify;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: white;
+        font-weight: 500;
+    }
+
+    .gmbr {
+        margin-top: 1rem;
+        background-color: #155e75;
+        padding-top: auto;
+        padding-bottom: 2rem;
+    }
+
+    .gmbr1 {
+        width: 700px;
+        border-radius: 0.375rem;
+        background-color: #1e3a8a;
+        height: 18rem;
+    }
+
+    .kami {
+        margin-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: white;
+        text-align: justify;
+    }
+
+    .kita {
+        padding-top: 0.8rem;
+        font-size: 1rem;
+        font-weight: 500;
+        
+    }
+
+    #prediksi {
+        opacity: 0;
+        transform: translateY(50px) scale(0.95);
+        transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+
+    #prediksi.active {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+    #prediksi .judul-baris h2,
+    #prediksi .judul-baris h3,
+    #prediksi .jangan1,
+    #prediksi .gmbr {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    #prediksi.active .judul-baris h2 {
+        transition-delay: 0.2s;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    #prediksi.active .judul-baris h3 {
+        transition-delay: 0.4s;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    #prediksi.active .jangan1 {
+        transition-delay: 0.6s;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    #prediksi.active .gmbr {
+        transition-delay: 0.8s;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    
+    #lautForm .sub3,
+    #lautForm .berat,
+    #lautForm .berat4,
+    #lautForm .simpan {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    /* Saat form aktif (terlihat di layar), jalankan animasi bertahap */
+    #lautForm.animate .sub3 {
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: 0.2s;
+    }
+
+    #lautForm.animate .berat {
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: 0.4s;
+    }
+
+    #lautForm.animate .berat4 {
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: 0.6s;
+    }
+
+    #lautForm.animate .simpan {
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: 0.8s;
+    }
+
+    
+    @media (min-width: 760px) {
+        .saya3 {
+            display: block;
+        }
+
+        .button {
+            display: none;
+        }
+
+        .saya4 {
+            display: none;
+        
+        }
+
+        .footer {
+            width: 100vw; 
+            max-width: 760px; 
+            padding: center;
+            border-radius: 0.375rem;
+              
+        }
+        
+
+        .kepala {
+            width: 100%;
+            max-width: 760px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .berita1 {
+            text-align: center;
+             
+        }
+    }

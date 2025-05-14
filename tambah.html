@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitlogix</title>
+    <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&amp;display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/tambah.css">
+</head>
+<body>
+
+  <!-- kepala -->
+    <div class="kepala1">
+      <header class="kepala">
+        <div class="sya">
+          <div class="saya2">
+            <img alt="Logo Bitlogix berupa huruf B berwarna putih dengan latar belakang biru tua" class="gambar" src="https://storage.googleapis.com/a1aa/image/33c04c61-ab4d-40b6-8713-4bedbf0cb956.jpg" width="40"/>
+              <span class="judul">Bitlogix</span>
+          </div>
+          <div class="saya3">
+            <input autocomplete="on" class="input" id="searchInput" placeholder="Cari jenis ikan..." type="text"/>
+          </div>
+            <button aria-label="Toggle Search" class="button" id="searchToggle">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        <div class="saya4" id="searchBar">
+          <input autocomplete="off" class="input2" id="searchInputMobile" placeholder="Cari jenis ikan..." type="text"/>
+        </div>
+      </header>
+      
+  <!-- content -->
+  <main class="content">
+  <form class="subcontent" id="lautForm">
+    <div class="sub3">
+      <label for="kelompok">Kelompok</label>
+      <select class="sub5" id="kelompok" required>
+        <option value="" disabled selected>Pilih Kelompok</option>
+        <option value="kelompok 1">Kelompok 1</option>
+        <option value="kelompok 2">Kelompok 2</option>
+        <option value="kelompok 3">Kelompok 3</option>
+        <option value="kelompok 4">Kelompok 4</option>
+        <option value="kelompok 5">Kelompok 5</option>
+        <option value="kelompok 6">Kelompok 6</option>
+        <option value="kelompok 7">Kelompok 7</option>
+        <option value="kelompok 8">Kelompok 8</option>
+        <option value="kelompok 9">Kelompok 9</option>
+        <option value="kelompok 10">Kelompok 10</option>
+      </select>
+    </div>
+
+    <div class="jenis2">
+      <label for="jenis">Jenis Tangkapan</label>
+      <select class="jenis4" id="jenis" required>
+        <option value="" disabled selected>Jenis tangkapan</option>
+        <option value="jaring">Jaring</option>
+        <option value="pancing">Pancing</option>
+        <option value="bubu">Bubu</option>
+        <option value="trawl">Trawl</option>
+        <option value="lainnya">Lainnya</option>
+      </select>
+    </div>
+
+    <div class="tanggal4">
+      <label for="tanggal">Tanggal Tangkapan:</label>
+      <input class="tanggal6" type="date" id="tanggal" name="tanggal" required>
+    </div>
+
+    <div class="berat4">
+      <label for="lokasi">Lokasi Tangkap:</label>
+      <select class="berat6" id="lokasi" required>
+        <option value="" disabled selected>Pilih lokasi tangkap</option>
+        <option value="Perairan Utara">Perairan Utara</option>
+        <option value="Perairan Selatan">Perairan Selatan</option>
+        <option value="Perairan Timur">Perairan Timur</option>
+        <option value="Perairan Barat">Perairan Barat</option>
+        <option value="Perairan Tengah">Perairan Tengah</option>
+      </select>
+    </div>
+    <button class="simpan" type="submit">Simpan Data</button>
+  </form>
+
+  <!-- Navbar -->
+    <nav class="footer">
+      <a href="index.html" aria-label="Beranda" class="ikon">
+        <i class="fas fa-home"></i>
+          <span class="ikon2">Beranda</span>
+      </a>
+    
+      <a href="tambah.html" aria-label="Tambah Data" class="ikon" onclick="document.getElementById('jenis').focus()">
+        <i class="fas fa-plus-circle" href="tambah.html"></i>
+          <span class="ikon2">Tambah</span>
+      </a>
+    
+      <a href="data.html" aria-label="Data Hasil" class="ikon" onclick="window.scrollTo({top: document.querySelector('#dataTable').offsetTop - 80, behavior: 'smooth'})">
+        <i class="fas fa-table"></i>
+          <span class="ikon2">Data</span>
+      </a>
+    
+      <a href="#prediksi" aria-label="Prediksi" class="ikon" onclick="window.scrollTo({top: document.querySelector('#prediksiText').offsetTop - 80, behavior: 'smooth'})">
+        <i class="fas fa-chart-line"></i>
+          <span class="ikon2">Prediksi</span>
+      </a>
+  </nav>
+  <script src="js/tambah.js"></script>
+</body>
+</html>
